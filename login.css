@@ -1,0 +1,342 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.header h1, .header h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Main Styles */
+
+.home-btn {
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    margin-bottom: 10px; 
+}
+
+.home-btn:hover {
+    color: rgb(214, 214, 214);
+}
+
+.container .logo {
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    padding: 40px;
+}
+
+.main .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h4 {
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label , .email label{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"], .form-group input[type="password"], .email input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.form-group .icon  {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+
+
+.login-btn {
+    width: 140px;
+    height: 70px;
+    background-color: #2172e4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 10px; font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: hwb(211 0% 30%);
+}
+
+.pass-btn {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.pass-btn a {
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+.pass-btn a:hover {
+    color: #23527c;
+}
+
+.pass-btn {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pass-btn a {
+    text-decoration: none;
+    color: #2172e4;
+    margin-right: 10px; /
+}
+
+.pass-btn a:last-child {
+    margin-right: 0; 
+}
+
+.pass-btn a:hover {
+    color: #23527c;
+}
+
+/* Links Section Styles */
+
+.links-section {
+    margin-top: 40px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.links-section h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 20px;
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-box {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.link-box .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #337ab7;
+}
+
+.link-box .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #337ab7;
+}
+
+.link-box .button {
+    background-color: #2172e4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+.link-box .button:hover {
+    background-color: hwb(211 0% 30%);
+    color: white;
+}
+
+.link-box a {
+    display: inline-block;
+    gap: 20px;
+    text-decoration: none;
+    color: #337ab7;
+    margin-right: 10px; 
+}
+
+.link-box a:hover {
+    color: #23527c;
+}
+
+.form-group input[type="text"], .form-group input[type="password"], .captcha-refresh, .login-btn, .pass-btn a, .link-box .button {
+    margin-bottom: 20px;
+}
+
+
+.pass-btn a, .link-box a {
+    margin-right: 20px;
+}
+
+/* Link-section */
+
+links-section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.links-section h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.link-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.link-box:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #237dde;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #215a98;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.link-box a {
+    display: block;
+    margin-top: 5px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link-box a:hover {
+    color: #0056b3;
+}
+  
